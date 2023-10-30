@@ -1,0 +1,33 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6", // or your preferred target
+//     "module": "CommonJS", // or your preferred module system
+//     //"outDir": "./dist", // specify your output directory
+//     //s"rootDir": "./src" // specify your source code directory
+//   },
+//   "include": [
+//     "**/*.ts" // Include all TypeScript files in your project
+//   ],
+//   "exclude": [
+//     "node_modules" // Exclude the node_modules directory
+//   ]
+// }
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "cypress-real-events",
+      "@applitools/eyes-cypress"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ],
+}
